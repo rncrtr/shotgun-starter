@@ -1,0 +1,24 @@
+{
+  "name": "shotgun starter",
+  "version": "1.0.0",
+  "description": "shotgun - svelte and gunjs",
+  "main": "main.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "start": "sirv public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "commonjs": "^0.0.1",
+    "gun": "^0.2020.1237",
+    "svelte": "^3.49.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-livereload": "^2.0.5",
+    "sirv-cli": "^2.0.2"
+  }
+}
